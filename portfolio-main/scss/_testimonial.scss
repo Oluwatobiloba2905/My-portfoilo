@@ -1,0 +1,80 @@
+.testimonial{
+    align-items: center;
+    text-align: center;
+    background: $primary-color;
+    padding-bottom: 2rem;
+
+    &__bio-image{
+        height: 30vh;
+        width: 100vw;
+    overflow: hidden;
+        background:
+        linear-gradient(
+            to right,
+            rgba($text-color, 0.3),
+            rgba($primary-color, 0.9)
+        ),
+        url(../img/img1.jpg) center top;
+        background-size: cover;
+        
+        .text-secondry{
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .flex{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        
+    .box{
+        width: 60vw;
+        margin: 2rem auto 0rem auto;
+        border: 3px solid $secondry-color;
+        img{
+            width: 60px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -1.6rem;
+            height: 60px;
+            border-radius: 3rem;
+        }
+        .client-name{
+            font-weight: bolder;
+            color: $secondry-color;
+        }
+        p{
+            padding: .5rem;
+
+        }
+    }
+    
+
+}
+button{
+    margin-top: 1rem;
+    width: 5rem;
+    background: unset;
+    height: 2.5rem;
+    border: 2px solid $secondry-color;
+    border-radius: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: $secondry-color;
+    &:hover{
+        @include transition-ease;
+        background: whitesmoke;
+        color:$primary-color;
+    }
+}
+footer{
+    transform:
+     rotate(90deg) 
+    translate(-7rem, -8rem);
+}
+}

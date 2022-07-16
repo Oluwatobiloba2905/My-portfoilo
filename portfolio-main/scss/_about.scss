@@ -1,0 +1,107 @@
+.about{
+    padding-bottom: 2rem;
+
+    &__bio-image{
+        height: 50vh;
+        width: 100vw;
+        background:url(../img/img2.jpg) center top;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        
+    p{
+        margin-bottom: 2rem;
+    }
+    }
+    &__bio{
+        width: 80%;
+        text-align: center;
+
+        .text-secondry{
+            padding-bottom: 1rem;
+        }
+    }
+    .jobs{
+        width: 60vw;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+
+        &__job{
+            background: lighten($primary-color, 10%);
+            padding: .5rem;
+            border-left: 5px solid $secondry-color;
+
+            h2, h3{
+                margin: .5rem 0;
+            }
+            h6{
+                margin: .3rem 0;
+                &:hover{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .container {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 3rem;
+            border: 2px solid rgba($text-color, 0.3);
+          }
+          
+          .skills {
+            border-radius: 2rem; 
+            text-align: right; /* Right-align text */
+            padding-top: 10px; /* Add top padding */
+            padding-bottom: 10px; /* Add bottom padding */
+            color: white; /* White text color */
+            @include transition-ease; 
+            padding-right: .5rem;
+          }
+          
+          .html {width: 98%;
+             background-color: $secondry-color;
+             &:hover{
+                @include transition-ease;
+                 background-color: rgba($primary-color, 0.9);
+             }
+         }
+          .css {width: 89%;
+             background-color: $secondry-color;
+             &:hover{
+                @include transition-ease;
+                 background-color: rgba($primary-color, 0.9);
+             }
+         }
+          .js {width: 70%;
+             background-color: $secondry-color;
+             &:hover{
+                @include transition-ease;
+                 background-color: rgba($primary-color, 0.9);
+             }
+         }
+          .Graphics {width: 80%;
+             background-color: $secondry-color;
+             &:hover{
+                @include transition-ease;
+                 background-color: rgba($primary-color, 0.9);
+             }
+         }
+
+            
+    }
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        transform:
+         rotate(90deg) 
+        translate(-3rem, -5rem);
+    }
+
+}
