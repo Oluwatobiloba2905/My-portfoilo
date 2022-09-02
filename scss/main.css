@@ -418,11 +418,11 @@
   z-index: 1;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  /* -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      -ms-flex-align: center; */
+  align-items: center;
   text-align: center;
 }
 
@@ -528,8 +528,8 @@
   .flex {
     width: auto;
     height: auto;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    /* -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr); */
   }
 }
 
@@ -541,8 +541,8 @@
   .flex {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    /* -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr); */
   }
 }
 
@@ -559,9 +559,9 @@
   height: 30vh;
   width: 100vw;
   overflow: hidden;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.3)), to(rgba(39, 39, 39, 0.9))), url(../img/img1.jpg) center top;
+  /* background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.3)), to(rgba(39, 39, 39, 0.9))), url(../img/img1.jpg) center top;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(39, 39, 39, 0.9)), url(../img/img1.jpg) center top;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .testimonial__bio-image .text-secondry {
