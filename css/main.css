@@ -445,6 +445,17 @@ Padding-top:2rem;
     background:url("../img/background.jpg") no-repeat fixed top center;
     background-size: cover;
   }
+
+
+  
+.logo{
+  width: 20px;
+  /* float: left; */
+  height: 50px;
+  bottom: -30px;
+  margin-bottom: 90px;
+
+}
   .menu-btn {
     visibility: hidden;
   }
@@ -503,6 +514,14 @@ Padding-top:2rem;
   .flex {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .logo{
+    width: 20px;
+    /* float: left; */
+    height: 50px;
+    bottom: -30px;
+    margin-bottom: 90px;
+  
   }
 }
 
@@ -565,5 +584,12 @@ footer {
   text-align: right;
   padding: 1rem;
   color: #fff;
+}
+
+.logo{
+  width: 220px;
+  float: left;
+  height: 150px;
+
 }
 /*# sourceMappingURL=main.css.map */
