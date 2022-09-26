@@ -595,7 +595,9 @@ footer {
 }
 
 .personal-image{
-  width
+  width: 150px;
+height: 180px;
+border-radius: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
