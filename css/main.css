@@ -594,8 +594,19 @@ footer {
 
 }
 
-.personal-image{
-  width: 90px;
-}
+/* .personal-image{ */
+  /* width: 150px; */
+  /* height:190px; */
+  margin-right: 3000px;
+  /* float: left; */
+  /* margin-left: 80px; */
+  /* margin-bottom: -20px; */
+  /* margin-top:-50px; */
+  border: 10px solid black;
+  /* border: 10px solid black; */
+  /* border-radius: 20px; */
+  /* border-box:90px;  */
+  /* padding-right:-120px; */
+/* } */
 
 /*# sourceMappingURL=main.css.map */
