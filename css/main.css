@@ -333,6 +333,7 @@ Padding-top:2rem;
 }
 
 .projects__items {
+  /* justify-content: baseline; */
   width: 60vw;
   margin: 2rem auto 0 auto;
   display: grid;
