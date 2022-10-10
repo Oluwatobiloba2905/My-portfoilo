@@ -612,16 +612,29 @@ footer {
 /* } */
 
 .personal-image{
-  width: 200px;
-height: 250px;
+  width: 150px;
+height: 280px;
 border-radius: 10px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-top: 30px;
+margin-top: 10px;
 /* position: fixed; */
 }
 
+
+/* @media screen and (min-width: 1024px) {
+  .personal-image{
+    width: 150px;
+  height: 250px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  /* position: fixed; */
+  /* } */
+/* }  */
 
 /* .personal-image{
   height: 100px;
