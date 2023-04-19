@@ -646,14 +646,14 @@ footer {
   /* position: fixed; */
 }
 
-.image-container {
+.image-container90 {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
 }
 
-img {
+.psimg {
   max-width: 100%;
   height: 60%;
   border-radius: 10px;
