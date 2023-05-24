@@ -637,13 +637,12 @@ footer {
 
 .personal-image {
   width: 90%;
-  height: 280px;
+  max-height: 280px;
   border-radius: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  /* position: fixed; */
 }
 
 .image-container90 {
@@ -655,9 +654,37 @@ footer {
 
 .psimg {
   max-width: 100%;
-  height: 60%;
+  max-height: 60%;
   border-radius: 10px;
+}
 
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .personal-image {
+    max-height: 200px;
+  }
+
+  .image-container90 {
+    height: 60vh;
+  }
+
+  .psimg {
+    max-height: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .personal-image {
+    max-height: 150px;
+  }
+
+  .image-container90 {
+    height: 50vh;
+  }
+
+  .psimg {
+    max-height: 30%;
+  }
 }
 
 
