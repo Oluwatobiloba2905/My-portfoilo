@@ -707,3 +707,89 @@ footer {
 } */
 
 /*# sourceMappingURL=main.css.map */
+
+.text-secondry2 {
+  color: #ff652f;
+  text-align: center;
+  text-shadow: #000;
+  margin: auto;
+  text-decoration: underline;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.container svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: all 0.3s;
+  fill: #666;
+}
+
+.container svg:hover {
+  transform: scale(1.1);
+}
+
+.container input:checked ~ svg {
+  fill: #ffeb49;
+}
+
+.projectsitems {
+  /* justify-content: baseline; */
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.projectsitem {
+  position: relative;
+  border-bottom: 5px solid #ff652f;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.projectsitem img {
+  width: 100%;
+}
+
+.projectsitem::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #838180;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.projectsitem:hover::after {
+  top: 0;
+  opacity: .9;
+}
+
+.projectsitem:hover .projects__btn {
+  opacity: 1;
+}
+.projectsitems {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
