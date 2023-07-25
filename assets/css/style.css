@@ -1117,3 +1117,43 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+.note {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  color: #ed3c0d;
+  animation: changeColor 3s infinite;
+  /* Add animation property */
+
+
+}
+
+@keyframes changeColor {
+  0% {
+    color: #ff0000;
+  }
+
+  /* Red */
+  25% {
+    color: #00ff00;
+  }
+
+  /* Green */
+  50% {
+    color: #ccff00;
+  }
+
+  /* Yellow */
+  75% {
+    color: #ff00ff;
+  }
+
+  /* Magenta */
+  100% {
+    color: #ff8800;
+  }
+
+  /* Orange */
+}
