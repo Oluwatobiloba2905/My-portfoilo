@@ -1131,21 +1131,24 @@ section .container {
 }
 
 @keyframes changeColor {
-  0% {
+  0%
+
+  /* REd */
+    {
     color: #ff0000;
   }
 
-  /* Red */
+  /* Green */
   25% {
     color: #00ff00;
   }
 
-  /* Green */
+  /* Lemon */
   50% {
     color: #ccff00;
   }
 
-  /* Yellow */
+  /* Pink */
   75% {
     color: #ff00ff;
   }
@@ -1153,6 +1156,11 @@ section .container {
   /* Magenta */
   100% {
     color: #ff8800;
+  }
+
+  /* Purple */
+  100% {
+    color: #7300ff;
   }
 
   /* Orange */
