@@ -1165,3 +1165,10 @@ section .container {
 
   /* Orange */
 }
+
+
+.fgf {
+  width: auto;
+  height: auto;
+  font-weight: bold;
+}
