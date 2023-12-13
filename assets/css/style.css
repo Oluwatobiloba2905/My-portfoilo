@@ -779,7 +779,7 @@ section .container {
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
-}
+} 
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
@@ -787,6 +787,9 @@ section .container {
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+  width: 341px ;
+  height: 165px;
+
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1171,4 +1174,8 @@ section .container {
   width: auto;
   height: auto;
   font-weight: bold;
+}
+.pro-img{
+  width: 450px;
+  height: 300px;
 }
